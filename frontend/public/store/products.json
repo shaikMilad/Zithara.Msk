@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "name": "ASUS VivoBook 15",
+      "price": "$499",
+      "category": "Laptops",
+      "description": "A lightweight laptop with Intel Core i5, 8GB RAM, and 256GB SSD, perfect for everyday use.",
+      "image": "https://images-cdn.ubuy.co.in/634001ecbf8b4a6e654cde65-asus-vivobook-15-s513-thin-and-light.jpg"
+    },
+    {
+      "name": "HP Pavilion x360",
+      "price": "$599",
+      "category": "Laptops",
+      "description": "Convertible touchscreen laptop with 11th Gen Intel i5, 8GB RAM, and 512GB SSD.",
+      "image": "https://hpstorerajkot.com/wp-content/uploads/71EzDbmTOfL._SL1500_-1.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": "$699",
+      "category": "Smartphones",
+      "description": "Flagship smartphone with 120Hz AMOLED display, Snapdragon 888, and 64MP camera.",
+      "image": "https://www.dxomark.com/wp-content/uploads/medias/post-80404/Samsung-Galaxy-S21-5G-Yoast-image-packshot-review.jpg"
+    },
+    {
+      "name": "Sony WH-1000XM4",
+      "price": "$299",
+      "category": "Headphones",
+      "description": "Industry-leading noise cancelling over-ear headphones with 30 hours battery life.",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+    },
+    {
+      "name": "Apple iPad 10.2\"",
+      "price": "$329",
+      "category": "Tablets",
+      "description": "Affordable iPad with Retina display, A13 Bionic chip, and Apple Pencil support.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOtPVm2l4i46FsVEzbz_5P7KXXEyr0SVGpcw&s"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9",
+      "price": "$749",
+      "category": "Tablets",
+      "description": "High-performance Android tablet with 11-inch Dynamic AMOLED display and included S Pen.",
+      "image": "https://m.media-amazon.com/images/I/618Acjb5AhL.jpg"
+    },
+    {
+      "name": "Apple iPhone 15 Pro",
+      "price": "$999",
+      "category": "Smartphones",
+      "description": "Apple's latest flagship smartphone featuring the A17 Bionic chip and advanced camera system.",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": "$1,199",
+      "category": "Smartphones",
+      "description": "Samsung's premium smartphone with a 200MP camera and S Pen support.",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/others/in-feature-galaxy-s24-s928-492660-539720077?$FB_TYPE_A_MO_JPG$"
+    },
+    {
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "price": "$399",
+      "category": "Audio",
+      "description": "Industry-leading noise-canceling over-ear headphones with up to 30 hours of battery life.",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRCxsvQDTC0DaUKcDPi7gmzbiY9QatoUjJB7vK6RJyzRAFLTEFk71LoqDmLLT9oPJ-lIkI_jg6mX-GRltqAzy55Z0Afss8IuqBk_rQGHao4_xlbBiIVym38hWM"
+    },
+    {
+      "name": "Dell XPS 13 Laptop",
+      "price": "$1,299",
+      "category": "Computers",
+      "description": "Compact and powerful laptop with 13.4-inch InfinityEdge display and Intel Core i7 processor.",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9350/spi/platinum/oled/notebook-xps-13-9350-oled-silver-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400"
+    },
+    {
+      "name": "Canon EOS R5 Mirrorless Camera",
+      "price": "$3,899",
+      "category": "Cameras",
+      "description": "Professional-grade mirrorless camera with 45MP full-frame sensor and 8K video recording.",
+      "image": "https://m.media-amazon.com/images/I/61vm45CsUHL.jpg"
+    },
+    {
+      "name": "Apple Watch Series 9",
+      "price": "$399",
+      "category": "Wearables",
+      "description": "Smartwatch with new S9 chip, brighter display, and advanced health features.",
+      "image": "https://s3.ap-south-1.amazonaws.com/shop.unicorn/full/e5d9985ff9b7e613c6ce3b76d.jpeg"
+    },
+    {
+      "name": "Bose SoundLink Revolve+ II Bluetooth Speaker",
+      "price": "$329",
+      "category": "Audio",
+      "description": "Portable Bluetooth speaker with 360-degree sound and up to 17 hours of battery life.",
+      "image": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/28442094/2024/3/22/e0ffa156-e158-48ce-896e-69ef445716171711098452059-BOSE-SoundLink-Revolve-2-Portable-Bluetooth-Speaker-with-Wir-1.jpg"
+    },
+    {
+      "name": "GoPro HERO11 Black",
+      "price": "$499",
+      "category": "Cameras",
+      "description": "Action camera with 5.3K video, HyperSmooth 5.0 stabilization, and waterproof design.",
+      "image": "https://gppro.in/wp-content/uploads/2024/11/hero-11-3.jpg"
+    },
+    {
+      "name": "Nike Air Zoom Pegasus 40",
+      "price": "$130",
+      "category": "Footwear",
+      "description": "Versatile running shoes with responsive cushioning and breathable mesh upper.",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/m/k/2/-original-imah4ekrcdndsh4j.jpeg?q=20&crop=false"
+    },
+    {
+      "name": "KitchenAid Artisan Stand Mixer",
+      "price": "$449",
+      "category": "Home Appliances",
+      "description": "Iconic stand mixer with 5-quart stainless steel bowl and 10-speed settings.",
+      "image": "https://www.kitchenaid.com/content/dam/global/kitchenaid/en_us/images/stand-mixers/ksm150psob/ksm150psob-stand-mixer.jpg"
+    },
+    {
+      "name": "Fitbit Charge 6 Fitness Tracker",
+      "price": "$159",
+      "category": "Wearables",
+      "description": "Advanced fitness tracker with heart rate monitoring, GPS, and sleep tracking.",
+      "image": "https://m.media-amazon.com/images/I/51iP5GHG5wL.jpg"
+    },
+    {
+      "name": "Sony PlayStation 5 Console",
+      "price": "$499",
+      "category": "Gaming",
+      "description": "Next-gen gaming console with ultra-fast SSD and immersive graphics.",
+      "image": "https://oxygendigitalshop.com/media/cache/2500x0/catalog/product/2/6/267452_ipcrdh_1690603224.webp"
+    },
+    {
+      "name": "Dyson V15 Detect Cordless Vacuum",
+      "price": "$749",
+      "category": "Home Appliances",
+      "description": "High-performance cordless vacuum with laser dust detection and HEPA filtration.",
+      "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/368340-01.png"
+    },
+    {
+      "name": "Samsung 65\" QN90C Neo QLED 4K Smart TV",
+      "price": "$2,199",
+      "category": "Electronics",
+      "description": "Ultra-bright 4K TV with Quantum Matrix Technology and Dolby Atmos sound.",
+      "image": "https://m.media-amazon.com/images/I/91kw0BYTftL.jpg"
+    },
+    {
+      "name": "Apple MacBook Pro 14\" M3 Pro",
+      "price": "$1,999",
+      "category": "Computers",
+      "description": "Powerful laptop with M3 Pro chip, Liquid Retina XDR display, and long battery life.",
+      "image": "https://www.aptronixindia.com/media/catalog/product/m/b/mbp14-spacegray-select-202310.jpeg"
+    },
+    {
+      "name": "Logitech MX Master 3S Wireless Mouse",
+      "price": "$99",
+      "category": "Accessories",
+      "description": "Ergonomic mouse with ultra-fast scrolling and customizable buttons.",
+      "image": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+      "price": "$89",
+      "category": "Kitchen Appliances",
+      "description": "Versatile pressure cooker with 7 cooking functions and 6-quart capacity.",
+      "image": "https://m.media-amazon.com/images/I/710KoJMG2lL.jpg"
+    },
+    {
+      "name": "Anker PowerCore 10000 Portable Charger",
+      "price": "$25",
+      "category": "Accessories",
+      "description": "Compact and lightweight power bank with 10000mAh capacity.",
+      "image": "https://files.vplak.com/images/anker/POWERCORE-10000/black/image-1.jpg"
+    },
+    {
+      "name": "Kindle Paperwhite (11th Gen)",
+      "price": "$139",
+      "category": "Electronics",
+      "description": "Waterproof e-reader with 6.8-inch display and adjustable warm light.",
+      "image": "https://static.beebom.com/wp-content/uploads/2021/09/Amazon-Kindle-launched-in-India-2.jpg?w=640"
+    },
+    {
+      "name": "JBL Flip 6 Portable Bluetooth Speaker",
+      "price": "$129",
+      "category": "Audio",
+      "description": "Rugged and waterproof speaker with powerful sound and 12-hour battery life.",
+      "image": "https://files.vplak.com/500-images/jbl/FLIP-6/black/image-4.jpg"
+    }
+  ]
+}

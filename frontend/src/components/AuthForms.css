@@ -1,0 +1,74 @@
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 25px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+form p.error-message {
+  color: #d32f2f;
+  margin-bottom: 15px;
+}
+
+form p.success-message {
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button[type="submit"] {
+  margin-top: 10px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}

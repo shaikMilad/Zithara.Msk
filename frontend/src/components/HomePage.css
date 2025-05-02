@@ -1,0 +1,376 @@
+/* General app background */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body, #root {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* NavBar styling */
+nav {
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+  color: orange;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  animation: slideDown 0.5s ease forwards;
+}
+
+nav .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+  color: orange;
+}
+
+nav button, .send-button, .product-favorite-button {
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-left: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav button:hover, .send-button:hover, .product-favorite-button:hover {
+  background-color: #cc8400;
+  transform: scale(1.05);
+}
+
+/* FavoritesPage back to store button */
+.favorite-button {
+  background-color: orange;
+  color: black;
+  border: 2px solid orange;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px 20px 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: #cc8400;
+  color: white;
+}
+
+/* Chatbot section */
+.chatbot-section {
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #ddd;
+  max-width: 1000px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+.messages-container {
+  height: 320px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  overflow-y: auto;
+  border-radius: 8px;
+  background-color: #82caf7; /* lemon chiffon */
+  flex-grow: 1;
+  min-height: 320px;
+  max-height: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.message-user {
+  text-align: right;
+  margin: 8px 0;
+}
+
+.message-bot {
+  text-align: left;
+  margin: 8px 0;
+}
+
+.message-text-user {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 20px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  max-width: 75%;
+  word-wrap: break-word;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  animation: popIn 0.3s ease forwards;
+}
+
+.message-text-bot {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 20px;
+  background-color: #f0e68c; /* khaki */
+  color: black;
+  max-width: 75%;
+  word-wrap: break-word;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  animation: popIn 0.3s ease forwards;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  text-align: left;
+  margin: 8px 0;
+  font-style: italic;
+  color: #666600;
+  font-size: 14px;
+}
+
+/* Input and send button */
+.input-send-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chat-input {
+  width: 100%;
+  width: 55rem;
+  height: 40px;
+  margin-bottom: 0;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.chat-input:focus {
+  outline: none;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.send-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0e68c;
+  color: black;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+  width: auto;
+  width: 6rem;
+  margin-left: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  margin-bottom: 10px;
+}
+
+.send-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.send-button:disabled {
+  cursor: not-allowed;
+  background-color: #f0e68c;
+  color: #666600;
+}
+
+/* Store section */
+.store-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  animation: fadeInUp 0.7s ease forwards;
+  border-radius: 10px;
+  border: none;
+}
+
+.store-header {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.product-search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.product-search-input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Products grid */
+.products-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  justify-content: flex-start;
+}
+
+/* Product card */
+.product-card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  width: calc((100% - 48px) / 4); /* 4 cards per row with 16px gap */
+  box-sizing: border-box;
+  background-color: white;
+  position: relative;
+  transition: none;
+  box-shadow: none;
+}
+
+.product-card:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+/* Product image */
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Product details */
+.product-name {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.product-price {
+  margin: 0 0 4px 0;
+  font-weight: bold;
+  color: #b8860b;
+}
+
+.product-category {
+  margin: 0 0 8px 0;
+  font-style: italic;
+  color: #555;
+}
+
+.product-description {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Favorite button */
+.product-favorite-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: orange;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-favorite-button:hover {
+  background-color: #cc8400;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
